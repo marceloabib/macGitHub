@@ -24,7 +24,7 @@ Como utilizar
 					numItens: 10		
 				});
 			});
-4. Adicione o elemento Twitter ao seu HTML como abaixo:
+4. Adicione o elemento github ao seu HTML como abaixo:
 				<div id="github"></div>
 
 Sugestões, dúvidas, críticas e melhorias podem ser enviadas para marcelinho.ruliz at gmail.com
