@@ -8,11 +8,10 @@
 	<script type="text/javascript">
 			$(document).ready(function() {
 				$("#github").macGitHub({
-					usuario: "andreferraro", 
+					usuario: "akitaonrails", 
 					titulo: true, 
-					texto: "Meus ultimos repositorios",
-					loaderText: "<div style=text-align:center;width:300px;margin:20px 10px;><img src=images/ajax-loader.gif style=vertical-align:middle;margin-right:6px;>carregando repositorios...</div>",
-					preloaderId: "preloader",
+					texto: "Meus &uacute;ltimos reposit&oacute;rios",
+					loaderText: "<div id='loading'><img src='images/ajax-loader.gif'>carregando reposit&oacute;rios...</div>",
 					slideIn: true,
 					itens: true,
 					numItens: 10		
@@ -21,8 +20,6 @@
 	</script>
 </head>
 <body>
-	<div id="container">	
-			<div id="github"></div>
-	</div>
+	<div id="github"></div>
 </body>
 </html>

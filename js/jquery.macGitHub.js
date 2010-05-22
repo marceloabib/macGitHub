@@ -17,12 +17,12 @@
 
 			$("ul#git-repositorio").hide();
 
-			var pl = $('<p id="'+ vOptions.preloaderId +'">'+ vOptions.loaderText +'</p>');
+			var pl = $(vOptions.loaderText);
 			$(this).append(pl);
 
 			$(this).show();			
 
-			$(this).append('<div id="footer">Siga-me no git: <a href="http://github.com/' + vOptions.usuario + '">http://github.com/' + vOptions.usuario + '</a></div>');
+			$(this).append('<div id="footer">Meu git: <a href="http://github.com/' + vOptions.usuario + '">http://github.com/' + vOptions.usuario + '</a></div>');
 
 			var montaLinha = '';
 			$.getJSON("http://github.com/api/v2/json/repos/show/" + vOptions.usuario +"?callback=?", function(data) {
@@ -61,7 +61,6 @@
 				titulo: true,
 				texto: "Meus repositorios",
 				loaderText: "",
-				preloaderId: "preloader",
 				slideIn: true,
 				itens: false,
 				numItens: 0
