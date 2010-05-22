@@ -34,7 +34,8 @@
 						montaLinha = montaLinha + "<li>";
 						montaLinha = montaLinha + "<a href='" + item.url + "' title='" + item.name + "' target='_blank'>" + item.name;
 						montaLinha = montaLinha + "</a> - <span class='watchers'> Watchers: <a href='http://github.com/" + vOptions.usuario + "/" + item.name + "/toggle_watch' target='_blank'>" + item.watchers + "</a></span>/";
-						montaLinha = montaLinha + "<span class='forks'>Forks:" + item.forks + "</span>";
+						montaLinha = montaLinha + "<span class='forks'>Forks: " + item.forks + "</span>";
+						montaLinha = montaLinha + "<br/><span class='description'>" + item.description + "</span>";
 						montaLinha = montaLinha + "</li>";	
 
 						//$("<li>").attr("text", item.description).appendTo("ul#git-repositorio");

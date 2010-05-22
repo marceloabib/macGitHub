@@ -1,0 +1,12 @@
+#github h2{font-size:14px;}
+#github ul{list-style-type:none;}		
+#git-repositorio{font-family: verdana; font-size: 12px; width: 300px;}		
+#git-repositorio li{margin-bottom:5px; color: #6D666A; font-weight: bold;}
+#git-repositorio li a{text-decoration:none; color: #4183C4; font-weight:bold;}
+#git-repositorio li a:hover{text-decoration:underline;}
+.watchers{font-size:11px;}
+.forks{font-size:11px;}
+.description{color:#000; font-weight:normal;}
+#footer{font-size: 14px;}
+#footer a{text-decoration:none; color: #000;}
+#footer a:hover{text-decoration:underline;}
